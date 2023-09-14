@@ -7,8 +7,7 @@ first_name: Gaurav
 middle_name:
 last_name: Singh
 email: gauravsinghk03@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: homepage
 footer_text: # nothing rn
 keywords: robotics, computer-vision  # add your own keywords or leave empty
 
