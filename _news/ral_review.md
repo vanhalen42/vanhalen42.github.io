@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ""
-date: Septembed 2023
+date: Sep 2023
 inline: true
 related_posts: false
 ---
