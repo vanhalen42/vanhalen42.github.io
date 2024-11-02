@@ -1,15 +1,43 @@
 ---
 ---
 
+@article{2024scenecomplete,
+  title={SceneComplete: Open-World 3D Scene Completion in Complex Real World Environments for Robot Manipulation},
+  author={{Aditya Agarwal,} {<span style="font-weight:bold;">Gaurav Singh</span>,}  {Bipasha Sen,} {Tomás Lozano-Pérez,} {Leslie Pack Kaelbling}},
+  journal={Under Review},
+  year={2024},
+  abstract={
+  Careful robot manipulation in every-day cluttered environments requires an accurate understanding of the 3D scene, in order to grasp and place objects stably and reliably and to avoid mistakenly colliding with other objects. In general, we must construct such a 3D interpretation of a complex scene based on limited input, such as a single RGB-D image. We describe SceneComplete, a system for constructing a complete, segmented, 3D model of a scene from a single view. It provides a novel pipeline for composing general-purpose pretrained perception modules (vision-language, segmentation, image-inpainting, image-to-3D, and pose-estimation) to obtain high-accuracy results. We demonstrate its accuracy and effectiveness with respect to ground-truth models in a large benchmark dataset and show that its accurate whole-object reconstruction enables robust grasp proposal generation, including for a dexterous hand.
+  },
+  pdf={https://arxiv.org/pdf/2410.23643},
+  website={https://scenecomplete.github.io/},
+  selected={true},
+  preview={scene_complete_teaser.gif},
+}
+
+@article{2024davil,
+  title={DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control},
+  author={{Md Faizal Karim*,} {Shreya Bollimuntha*,} {Mohammed Saad Hashmi,} {Autrio Das,} {<span style="font-weight:bold;">Gaurav Singh</span>,}  {Srinath Sridhar,} {Arun Kumar Singh,} {Nagamanikandan Govindan,} {K Madhava Krishna}},
+  journal={Under Review},
+  year={2024},
+  abstract={
+  Dual-arm manipulation is an area of growing interest in the robotics community. Enabling robots to perform tasks that require the coordinated use of two arms, is essential for complex manipulation tasks such as handling large objects, assembling components, and performing human-like interactions. However, achieving effective dual-arm manipulation is challenging due to the need for precise coordination, dynamic adaptability, and the ability to manage interaction forces between the arms and the objects being manipulated. We propose a novel pipeline that combines the advantages of policy learning based on environment feedback and gradient-based optimization to learn controller gains required for the control outputs. This allows the robotic system to dynamically modulate its impedance in response to task demands, ensuring stability and dexterity in dual-arm operations. We evaluate our pipeline on a trajectory-tracking task involving a variety of large, complex objects with different masses and geometries. The performance is then compared to three other established methods for controlling dual-arm robots, demonstrating superior results.
+  },
+  pdf={https://arxiv.org/pdf/2410.19712},
+  website={https://dualarmvil.github.io/Dual-Arm-VIL/},
+  selected={true},
+  preview={davil_banner.gif},
+}
+
 @article{2024cgdf,
   title={Constrained 6-DoF Grasp Generation on Complex Shapes for Improved Dual-Arm Manipulation},
-  author={{Gaurav Singh*,} {Sanket Kalwar*,} {Md Faizal Karim,} {Bipasha Sen,} { Nagamanikandan Govindan,} {Srinath Sridhar,} {K. Madhava Krishna}},
+  author={{<span style="font-weight:bold;">Gaurav Singh*</span>,} {Sanket Kalwar*,} {Md Faizal Karim,} {Bipasha Sen,} { Nagamanikandan Govindan,} {Srinath Sridhar,} {K. Madhava Krishna}},
   journal={IROS},
   year={2024},
   abstract={
   Efficiently generating grasp poses tailored to specific regions of an object is vital for various robotic manipulation tasks, especially in a dual-arm setup. This scenario presents a significant challenge due to the complex geometries involved, requiring a deep understanding of the local geometry to generate grasps efficiently on the specified constrained regions. Existing methods only explore settings involving table-top/small objects and require augmented datasets to train, limiting their performance on complex objects. We propose CGDF: Constrained Grasp Diffusion Fields, a diffusion-based grasp generative model that generalizes to objects with arbitrary geometries, as well as generates dense grasps on the target regions. CGDF uses a part-guided diffusion approach that enables it to get high sample efficiency in constrained grasping without explicitly training on massive constraint-augmented datasets. We provide qualitative and quantitative comparisons using analytical metrics and in simulation, in both unconstrained and constrained settings to show that our method can generalize to generate stable grasps on complex objects, especially useful for dual-arm manipulation settings, while existing methods struggle to do so.
   },
-  pdf={https://arxiv.org/pdf/2404.04643.pdf},
+  pdf={https://arxiv.org/pdf/2404.04643},
   website={https://constrained-grasp-diffusion.github.io},
   selected={true},
   preview={traj_cgdf.gif},
@@ -17,7 +45,7 @@
 
 @article{sen2023hyp,
   title={HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork},
-  author={{Bipsaha Sen*,} {Gaurav Singh*,} {Aditya Agarwal*,} {Rohith Agaram,} {K. Madhava Krishna,} {Srinath Sridhar}},
+  author={{Bipsaha Sen*,} {<span style="font-weight:bold;">Gaurav Singh*</span>,} {Aditya Agarwal*,} {Rohith Agaram,} {K. Madhava Krishna,} {Srinath Sridhar}},
   journal={NeurIPS},
   year={2023},
   abstract={
@@ -31,7 +59,7 @@
 
 @inproceedings{sen2023scarp,
   title={SCARP: 3D Shape Completion in ARbitrary Poses for Improved Grasping},
-  author={{Bipsaha Sen*,} {Aditya Agarwal*,} {Gaurav Singh*,} {B. Brojeshwar,} {Srinath Sridhar,} {K. Madhava Krishna} },
+  author={{Bipsaha Sen*,} {Aditya Agarwal*,} {<span style="font-weight:bold;">Gaurav Singh*</span>,} {B. Brojeshwar,} {Srinath Sridhar,} {K. Madhava Krishna} },
   booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
   pages={3838--3845},
   year={2023},
